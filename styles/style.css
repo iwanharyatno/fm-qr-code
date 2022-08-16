@@ -1,15 +1,56 @@
-::root {
-  --main-background: hsl(220, 15%, 55%);
-  --color-gray: hsl(212, 45%, 89%);
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@400;700&display=swap');
+
+:root {
+  --main-background: hsl(212, 45%, 89%);
+  --color-gray: hsl(220, 15%, 55%);
+  --color-dark: hsl(218, 44%, 22%);
 }
 
 body {
-  font-family: sans-serif;
+  font-family: "Outfit", sans-serif;
   font-size: 15px;
   margin: 0;
   padding: 0;
+  background-color: var(--main-background);
 }
 
-main {
-  background-color: var(--main-background);
+.card {
+  width: calc(90% - 36px);
+  padding: 18px;
+  border-radius: 18px;
+  text-align: center;
+  background-color: #fff;
+  box-shadow: 0 8px 70px -40px var(--color-dark);
+}
+
+.card img {
+  width: 100%;
+  border-radius: 12px;
+}
+
+.card-caption {
+  padding: 18px;
+
+}
+
+.card-title {
+  color: var(--color-dark);
+  margin-bottom: 12px;
+}
+
+.card-subtitle {
+  color: var(--color-gray);
+}
+
+.center {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+@media screen and (min-width: 1440px) {
+  .card {
+    width: 20%;
+  }
 }
