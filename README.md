@@ -11,8 +11,6 @@ This is a solution to the [QR code component challenge on Frontend Mentor](https
   - [Built with](#built-with)
 - [Author](#author)
 
-**Note: Delete this note and update the table of contents based on what sections you keep.**
-
 ## Overview
 
 ### Screenshot
@@ -22,7 +20,7 @@ This is a solution to the [QR code component challenge on Frontend Mentor](https
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
+- Solution URL: [https://www.frontendmentor.io/solutions/responsive-qr-code-page-using-css-e3XOPh0Jhk](https://www.frontendmentor.io/solutions/responsive-qr-code-page-using-css-e3XOPh0Jhk)
 - Live Site URL: [https://iwanharyatno.github.io/fm-qr-code](https://iwanharyatno.github.io/fm-qr-code)
 
 ## My process
@@ -34,7 +32,7 @@ This is a solution to the [QR code component challenge on Frontend Mentor](https
 
 ### What I learned
 
-After doing this project, I've learned on how to center a container, which is varies in heights both vertically and horizontally.
+After doing this project, I've learned on how to center a varying height container both vertically and horizontally.
 
 Below is the css code snippet on how I implement the technique using css transform.
 
